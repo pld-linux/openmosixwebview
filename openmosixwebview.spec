@@ -7,6 +7,7 @@ License:	GPL
 Group:		Applications/System
 Vendor:		Ramon Pons Vivanco <rpons@rinu.org>
 Source0:	http://laurel.datsi.fi.upm.es/~rpons/openmosix/download/%{name}-%{version}.tar.gz
+# Source0-md5:	eb5c333a30aad210daeaa047d2c22b53
 Patch0:		%{name}-mosix.patch
 URL:		http://laurel.datsi.fi.upm.es/~rpons/openmosix/
 Requires:	openmosixview-collector
