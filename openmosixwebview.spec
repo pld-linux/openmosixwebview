@@ -2,7 +2,7 @@ Summary:	A PHP script for monitoring an openMosix cluster via the Web
 Summary(pl):	openmosixwebview - skrypt PHP monitoruj±cy pracê klastra openMosix
 Name:		openmosixwebview
 Version:	0.2.12
-Release:	0.1
+Release:	1
 License:	GPL
 Group:		Applications/System
 Vendor:		Ramon Pons Vivanco <rpons@rinu.org>
