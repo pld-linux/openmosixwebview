@@ -1,0 +1,26 @@
+--- openmosixwebview-0.2.12/openmosixwebview.php.orig	Fri Apr 18 21:40:07 2003
++++ openmosixwebview-0.2.12/openmosixwebview.php	Fri Apr 18 21:40:39 2003
+@@ -36,8 +36,8 @@
+ $clusterlogdir = "/tmp/openmosixcollector/"; /* Logdir */
+ $dirphist = $clusterlogdir . "phist/"; /* Process history */
+ $tsecsdat = "tsecs.dat"; /* phist extension */
+-$procdir = "/proc/hpc/nodes/"; /* HPC info */
+-$adminconfig = "/proc/hpc/admin/config"; /* We use it for whois info */
++$procdir = "/proc/mosix/nodes/"; /* HPC info */
++$adminconfig = "/proc/mosix/admin/config"; /* We use it for whois info */
+ $group = "/etc/group"; /* group's file */
+ $defaultwidth = 300; /* Default width */
+ $defaultheight = 200; /* Default height */
+@@ -491,10 +491,10 @@
+ 
+ 	function remote ($conf){
+ 		$i=0;
+-		if ($dir = @opendir("/proc/hpc/remote")) {
++		if ($dir = @opendir("/proc/mosix/remote")) {
+ 			while (($file = readdir($dir)) !== false) {
+ 				if (is_numeric($file)){
+-					$target= "/proc/hpc/remote/" . $file . "/";
++					$target= "/proc/mosix/remote/" . $file . "/";
+ 
+ 					$line=file($target . "from");
+ 					list($node, $ip) = sscanf($line[0],"%d %s");
