@@ -1,5 +1,5 @@
 Summary:	A PHP script for monitoring an openMosix cluster via the Web
-Summary(pl.UTF-8):   openmosixwebview - skrypt PHP monitorujący pracę klastra openMosix
+Summary(pl.UTF-8):	openmosixwebview - skrypt PHP monitorujący pracę klastra openMosix
 Name:		openmosixwebview
 Version:	0.2.13
 Release:	4
